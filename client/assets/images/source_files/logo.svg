@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.5014205"
+     inkscape:cx="151.17417"
+     inkscape:cy="1002.6382"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="968"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 2"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="22.908861"
+       y="59.805172"
+       id="text4594"
+       inkscape:export-filename="/Users/aladdin/Projects/Silsila/wallet/client/assets/images/logo.png"
+       inkscape:export-xdpi="95.795845"
+       inkscape:export-ydpi="95.795845"><tspan
+         sodipodi:role="line"
+         id="tspan4592"
+         x="22.908861"
+         y="69.168938"
+         style="stroke-width:0.26458332"></tspan></text>
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <rect
+       id="rect3712"
+       width="45"
+       height="35"
+       x="-62.438637"
+       y="-48.47731"
+       style="fill:#001f54;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1"
+       rx="5"
+       transform="scale(-1)" />
+    <rect
+       id="rect3738"
+       width="40"
+       height="30"
+       x="-59.938637"
+       y="-45.97731"
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.331;stroke-miterlimit:0;stroke-dasharray:1.98600004, 0.66200001;stroke-dashoffset:0;stroke-opacity:1"
+       rx="4.4444442"
+       transform="scale(-1)" />
+    <rect
+       style="fill:#001f54;fill-opacity:1;stroke:#ffffff;stroke-width:0.331;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4545"
+       width="19.314205"
+       height="9.2209759"
+       x="45.20821"
+       y="26.366821"
+       rx="2.6999338" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.331;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4547"
+       cx="50.130215"
+       cy="31.017731"
+       r="2.8036749" />
+  </g>
+</svg>

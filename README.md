@@ -1,6 +1,7 @@
-# wallet
+# silsila/wallet
+Wallet is a part of Silsila framework for storing and sharing official documents on the blockchain.
 
-This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 4.2.3.
+This project use [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 4.2.3.
 
 ## Getting Started
 
