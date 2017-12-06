@@ -26,7 +26,7 @@ function registerEvents(Wallet) {
 
 function emitEvent(event) {
   return function(doc) {
-    WalletEvents.emit(event + ':' + doc._id, doc);
+    WalletEvents.emit('${event}: ${doc._id}', doc);
     WalletEvents.emit(event, doc);
   };
 }
