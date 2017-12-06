@@ -11,7 +11,7 @@ var DocumentSchema = new mongoose.Schema({
     type: mongoose.Schema.ObjectId,
     ref: 'Wallet'
   },
-  assetData:{
+  assetData: {
     type: Object
   },
   info: String,

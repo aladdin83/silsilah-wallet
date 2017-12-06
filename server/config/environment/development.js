@@ -7,9 +7,11 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/wallet-dev'
+    uri: 'mongodb://localhost:27018/wallet-dev'
   },
-
+  bigchaindb: {
+    apiPath: 'http://localhost:59984/api/v1/'
+  },
   // Seed database on startup
   seedDB: true
 

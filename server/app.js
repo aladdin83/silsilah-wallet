@@ -10,6 +10,7 @@ mongoose.Promise = require('bluebird');
 import config from './config/environment';
 import http from 'http';
 import seedDatabaseIfNeeded from './config/seed';
+import * as bigchaindbDriver from 'bigchaindb-driver';
 
 // Connect to MongoDB
 mongoose.connect(config.mongo.uri, config.mongo.options);
@@ -17,6 +18,9 @@ mongoose.connection.on('error', function(err) {
   console.error(`MongoDB connection error: ${err}`);
   process.exit(-1); // eslint-disable-line no-process-exit
 });
+
+// Connect to Bigchaindb
+const conn = new bigchaindbDriver.Connection(config.bigchaindb.apiPath);
 
 // Setup server
 var app = express();

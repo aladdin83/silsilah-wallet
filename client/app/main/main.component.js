@@ -5,13 +5,15 @@ import routing from './main.routes';
 export class MainController {
   $http;
   socket;
+  Upload;
   awesomeThings = [];
   newThing = '';
 
   /*@ngInject*/
-  constructor($http, $scope, socket) {
+  constructor($http, $scope, socket, Upload) {
     this.$http = $http;
     this.socket = socket;
+    this.Upload = Upload;
 
     $scope.$on('$destroy', function() {
       socket.unsyncUpdates('thing');
@@ -33,6 +35,24 @@ export class MainController {
       });
       this.newThing = '';
     }
+  }
+
+  uploadFile(){
+    if(this.newFile){
+      console.log('uploading');
+      this.Upload.upload({
+        url: 'api/documents/',
+          data: {
+              file: this.newFile
+          }
+        }).then(response=>{
+            console.log('file Uploaded');
+            }).catch(err=>{
+              alert('File upload failed please try again');
+              this.imageUploadPending = false;
+              this.resetUploadForm();
+          })
+      }
   }
 
   deleteThing(thing) {

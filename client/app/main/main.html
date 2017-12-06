@@ -10,7 +10,16 @@
   <div class="row">
     <div class="col-lg-12">
       <h1 class="page-header">How it works:</h1>
-      
+      <form class="" ng-submit="$ctrl.uploadFile()">
+        <button class="btn" ngf-select ng-model="$ctrl.newFile">Select Image File</button>
+        <span>{{$ctrl.newFile.name}}</span>
+        <span style="font-weight: bold" ng-show="$ctrl.newFile.size">{{$ctrl.newFile.size / 1024 | number : 2}}KB</span>
+        <button class="btn btn-primary" type="submit">
+          <i class="fa fa-upload"></i>
+          Upload
+      </button>
+      </form>
+
     </div>
   </div>
 </div>
