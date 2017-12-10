@@ -12,6 +12,9 @@ module.exports = {
   bigchaindb: {
     apiPath: 'http://localhost:59984/api/v1/'
   },
+  ipfs: {
+    ipfsGatewayUrl: 'http://localhost:32769/ipfs/'
+  },
   // Seed database on startup
   seedDB: true
 

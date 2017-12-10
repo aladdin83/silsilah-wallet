@@ -16,6 +16,7 @@ function onConnect(socket) {
   });
 
   // Insert sockets below
+  require('../api/government_authority/government_authority.socket').register(socket);
   require('../api/document/document.socket').register(socket);
   require('../api/wallet/wallet.socket').register(socket);
   require('../api/thing/thing.socket').register(socket);

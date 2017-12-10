@@ -37,18 +37,15 @@ export class MainController {
     }
   }
 
-  uploadFile(){
-    if(this.newFile){
+  uploadFile() {
+    if(this.newFile) {
       console.log('uploading');
       this.Upload.upload({
         url: 'api/documents/',
-          data: {
-              file: this.newFile
-          }
-        }).then(response=>{
-            console.log('file Uploaded');
-            }).catch(err=>{
-              alert('File upload failed please try again');
+        data: {
+          file: this.newFile
+        }}).then(response => {
+            }).catch(err => {
               this.imageUploadPending = false;
               this.resetUploadForm();
           })

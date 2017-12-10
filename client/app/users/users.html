@@ -1,0 +1,30 @@
+<div class="container">
+    <H1>Users</H1>
+    <div class="toolbar">
+      <button class="btn btn-primary">New</button>  
+      <div class="input-group search-input">
+        <input type="text" class="form-control" placeholder="Search for...">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+        </span>
+      </div>
+    </div>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Role</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ui-sref="usersView({id: user._id})" ng-repeat="user in usersCtrl.users">
+          <td>{{user._id}}</td>
+          <td>{{user.name}}</td>
+          <td>{{user.role}}</td>
+          <td>{{user.email}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

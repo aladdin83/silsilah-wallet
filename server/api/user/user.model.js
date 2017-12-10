@@ -21,7 +21,14 @@ var UserSchema = new Schema({
     required: true
   },
   provider: String,
-  salt: String
+  salt: String,
+  digitalSigniturePk: String,
+  digitalSignitureSk: String,
+  Authority: String,
+  Authorization: Object,
+  JobTitle: String,
+  PhotoFileName: String,
+  ContactInfo: Object,
 });
 
 /**

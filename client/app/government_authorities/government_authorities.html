@@ -1,0 +1,21 @@
+<div class="header">
+  <h2><strong>Government Authorities</strong></h2>
+</div>
+<div class="row">
+  <div class="col-lg-12">
+    <div class="panel">
+      <div class="panel-body">
+        <button type="button" class="btn btn-primary" ui-sref="government_authorities.new"><i class="fa fa-plus"></i> New</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row" ng-repeat="govAuthority in $ctrl.govAuthorities">
+  <div class="panel">
+    <div class="panel-header">
+      <h3>{{govAuthority.name}}</h3>
+      <div class="panel-content"></div>
+  </div>
+</div>
+</div>
+<div ui-view></div>

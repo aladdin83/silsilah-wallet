@@ -17,11 +17,28 @@ $fa-font-path: '/assets/fonts/font-awesome/';
   padding: 0.2em 0;
 }
 
+.toolbar{
+  margin-bottom: 10px;
+  overflow: hidden;
+  > * {
+    float: left;
+    margin-left: 10px;
+  }
+  :first-child{
+    margin-left: 0px;
+  }
+  .search-input{
+    width: 350px;
+    overflow: hidden
+  }
+}
+
 // Component styles are injected through gulp
 /* inject:scss */
 @import 'admin/admin';
 @import 'main/main';
 @import 'palette';
+@import 'users/users';
 @import '../components/footer/footer';
 @import '../components/modal/modal';
 /* endinject */

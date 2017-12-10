@@ -1,0 +1,48 @@
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel">
+      <div class="panel-header bg-dark">
+        <h2 class="panel-title">
+          <span><strong>New</strong>Government Authority</span>
+        </h2>
+      </div>
+      <div class="panel-content">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <p>Create new government authority to authorize users to validate, and sign documents</p>
+            <form action="" role="form" class="form-horizontal">
+              <div class="form-group">
+                <label class="col-sm-3 control-label">Name</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-3 control-label">Description</label>
+                <div class="col-sm-9">
+                    <textarea class="form-control"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-3 control-label">Logo</label>
+                <div class="col-sm-9">
+                  <div class="input-group">
+                      <div class="form-control" data-trigger="fileinput">
+                          <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                          <span>{{$ctrl.itemImageFile.name}}</span>
+                      </div>
+                      <span class="input-group-addon btn btn-default btn-file">
+                          <span ngf-select ng-model="$ctrl.itemImageFile">Select Image File</span>
+                          <span ng-show="">Change</span>
+                      </span>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <form class=""></form>
+      </div>
+    </div>
+  </div>
+</div>

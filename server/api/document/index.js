@@ -1,10 +1,12 @@
 'use strict';
 
+import config from '../../config/environment';
+
 var express = require('express');
 var controller = require('./document.controller');
 var multer = require('multer');
 var ipfsMulterStorage = require('../../components/ipfs-multer-storage')({
-  ipfsGatewayUrl: 'http://localhost:32769/ipfs/'
+  ipfsGatewayUrl: config.ipfs.ipfsGatewayUrl
 });
 var upload = multer({storage: ipfsMulterStorage});
 

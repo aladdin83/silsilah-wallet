@@ -7,9 +7,12 @@
     <title>Angular Full-Stack Generator</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/ui.css" rel="stylesheet">
+    <link href="assets/css/admin-layout.css" rel="stylesheet">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 </head>
-<body>
+<body class="fixed-topbar fixed-sidebar theme-sdtl color-default dashboard bg-light-blue">
     <!--[if lt IE 9]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -24,9 +27,15 @@
       ga('create', 'UA-XXXXX-X');
       ga('send', 'pageview');
     </script>
-
-    <navbar></navbar>
-    <div ui-view=""></div>
-    <footer></footer>
+    <section style="opacity: 1;">
+      <sidebar class="sidebar"></sidebar>
+      <div class="main-content">
+          <topbar class="topbar"></topbar>
+          <div ui-view="" class="page-content page-thin"></div>
+          <footer></footer>
+        </div>
+    </section>
+    
+    
 </body>
 </html>
